@@ -33,18 +33,3 @@ CREATE TABLE employee (
   PRIMARY KEY(id)
 
 );
-
-
-SELECT * FROM department;
-
-SELECT * FROM employee;
-
-INSERT INTO employee (first_name, last_name, role_id, manger_id) VALUES ("Caleb", "CRUM", 1, 2);
-INSERT INTO employee (first_name, last_name, role_id, manger_id) VALUES ("Belac", "Murc", 11, 1);
-INSERT INTO employee (first_name, last_name, role_id, manger_id) VALUES ("Me", "Me", 22, 1);
-
-SELECT * FROM role;
-
-INSERT INTO role (title, salary, department_id) VALUES ("Cool Guy", 50000, 1);
-INSERT INTO role (title, salary, department_id) VALUES ("Bad Guy", 50000, 11);
-INSERT INTO role (title, salary, department_id) VALUES ("Fly Guy", 50000, 0);
